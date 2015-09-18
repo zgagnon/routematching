@@ -16,7 +16,6 @@ sbt assembly
 ```
 
 This will create jar files for the verify1 and verify2 projects in the respective target directories. For convenience
-I have pre-packaged the jars and included shell scripts which will launch them, verify1.sh and verify2.sh
 
 ## Implementation
 The files are parsed by task-specific structures: `PackageItinerary` and `Schedule` - each is provided with a generic
